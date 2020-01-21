@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="ActivityDetailsTest" >
+<parameter name="browser" value="chrome" />
+<!-- <listeners>
+        <listener class-name="jppl.automation.Utility.AnnotationTransformer"/>
+  </listeners> -->
+  <test name="ChromeTests">
+  
+  
+    <classes>    	
+    
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.ActivityDetailsTest">
+       
+       <methods>
+		
+		<!-- <include name="verifyWhenUserClickOnAccountSummaryOnFlyoutSection"></include> -->
+		<!-- <include name="verifyWhenUserClickOnActivityDetailsTabOnAccountSummaryPage"></include> -->
+		<!-- <include name="verifyTheContentsOfChoosePeriodForStatementRadioButtonOnActivityDetailsTab"></include> -->
+		<!-- <include name="verifyTheVontentsOfPartnerCategoryDropdownOnChoosePeriodForStatementRadioButtonOnActivityDetailsTab"></include> -->
+		<!-- <include name="verifyErrorMessagesWhenUserClicksOnViewActivityStatementButtonWithoutDateSelection"></include> -->
+		<!-- <include name="verifyWhenUserSelectsFromAndToDateAndClicksOnViewActivityStatementButton"></include> -->
+		<include name="verifyWhenUserSelectsPendingActivitiesRadioButtonOnActivityDetailsTab"></include>
+     	
+       
+       </methods>
+       </class>      
+    </classes>
+  </test>
+  <!--  <test name="FirefoxTests">
+  <parameter name="browser" value="Firefox" />
+    <classes>
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.FlySearchPageTest" />
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.LoginPageTest" />
+    </classes>
+  </test> -->
+ <!--   <test name="IETests">
+  <parameter name="browser" value="IE" />
+    <classes>
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.FlySearchPageTest" />
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.LoginPageTest" />
+    </classes>
+  </test> -->
+ 
+ <!--  <test name="Regression1">
+    <classes>
+      <class name="test.sample.ParameterSample"/>
+      <class name="test.sample.ParameterTest"/>
+    </classes>
+  </test> -->
+</suite>

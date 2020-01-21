@@ -1,0 +1,282 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>JPPLAutomationGroup</groupId>
+  <artifactId>JPPLCICD</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>JPPLCICD</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  
+<!-- <repositories>
+<repository>
+<id>atlassian-public</id>
+<url>https://maven.atlassian.com/repository/public</url>
+<snapshots>
+<enabled>true</enabled>
+<updatePolicy>never</updatePolicy>
+<checksumPolicy>warn</checksumPolicy>
+</snapshots>
+<releases>
+<enabled>true</enabled>
+<checksumPolicy>warn</checksumPolicy>
+</releases>
+</repository>
+</repositories> -->
+
+<!-- 
+<repositories>
+<repository>
+        <id>atlassian-public</id>
+        <url>https://m2proxy.atlassian.com/repository/public</url>
+        <snapshots>
+            <enabled>true</enabled>
+            <updatePolicy>daily</updatePolicy>
+            <checksumPolicy>warn</checksumPolicy>
+        </snapshots>
+        <releases>
+            <enabled>true</enabled>
+            <checksumPolicy>warn</checksumPolicy>
+        </releases>
+    </repository>
+</repositories> -->
+
+ <dependencies>
+  
+  	<dependency>
+  		<groupId>org.testng</groupId>
+  		<artifactId>testng</artifactId>
+  		<version>6.10</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-java</artifactId>
+  		<version>3.141.59</version>
+  	</dependency>
+  	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+<!-- <dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.4</version>
+</dependency> -->
+<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+</dependency>
+
+  	
+  	
+  	<!-- https://mvnrepository.com/artifact/org.json/json -->
+<!-- <dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20090211</version>
+</dependency> -->
+<dependency>
+   <groupId>org.apache.httpcomponents</groupId>
+   <artifactId>httpmime</artifactId>
+   <version>4.2.5</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+    <version>4.5.2</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpcore</artifactId>
+    <version>4.4.11</version>
+</dependency>
+<dependency>
+
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>2.4</version>
+            <scope>system</scope>
+<systemPath>
+ C:\JPPL_OfflineJars\json-lib-2.4.jar
+    </systemPath>
+        </dependency> 
+  	
+  	<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>3.4.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/ru.yandex.qatools.ashot/ashot -->
+<dependency>
+    <groupId>ru.yandex.qatools.ashot</groupId>
+    <artifactId>ashot</artifactId>
+    <version>1.5.3</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>3.11</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.ini4j/ini4j -->
+<!-- https://mvnrepository.com/artifact/org.ini4j/ini4j -->
+<dependency>
+    <groupId>org.ini4j</groupId>
+    <artifactId>ini4j</artifactId>
+    <version>0.5.4</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<!-- <dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>4.0.0</version>
+</dependency> -->
+<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+<dependency>
+    <groupId>com.relevantcodes</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>2.41.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.github.stephenc.monte/monte-screen-recorder -->
+<dependency>
+    <groupId>com.github.stephenc.monte</groupId>
+    <artifactId>monte-screen-recorder</artifactId>
+    <version>0.7.7.0</version>
+</dependency>
+
+<!-- <dependency>
+<groupId>com.atlassian.fugue</groupId>
+<artifactId>fugue</artifactId>
+<version>2.2.1</version>
+</dependency> -->
+
+<dependency>
+<groupId>com.atlassian.jira</groupId>
+<artifactId>jira-rest-java-client-api</artifactId>
+<version>0.7.4</version>
+<scope>system</scope>
+<systemPath>
+<!--         C:\Users\meenal.jain\OneDrive - Mphasis\Jars_shared\jira-rest-java-client-api-4.0.0.jar
+ -->        
+ C:\JPPL_OfflineJars\jira-client-0.7.4.jar
+    </systemPath>
+</dependency>
+
+
+<!-- <dependency>
+<groupId>com.atlassian.jira</groupId>
+<artifactId>jira-rest-java-client-core</artifactId>
+<version>4.0.0</version>
+</dependency> -->
+
+<!-- <dependency>
+        <groupId>com.atlassian.jira</groupId>
+        <artifactId>jira-rest-java-client-api</artifactId>
+        <version>4.0.0</version>
+        <scope>provided</scope>
+    </dependency>
+    <dependency>
+        <groupId>com.atlassian.jira</groupId>
+        <artifactId>jira-rest-java-client-core</artifactId>
+        <version>4.0.0</version>
+        <scope>provided</scope>
+    </dependency>
+
+https://mvnrepository.com/artifact/org.jenkins-ci.plugins/jira
+<dependency>
+    <groupId>org.jenkins-ci.plugins</groupId>
+    <artifactId>jira</artifactId>
+    <version>2.4.2</version>
+</dependency> -->
+
+<dependency>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-failsafe-plugin</artifactId>
+  <version>3.0.0-M3</version>
+  <type>maven-plugin</type>
+</dependency>
+
+
+  	
+  <!-- 	<dependency>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-surefire-plugin</artifactId>
+  <version>3.0.0-M3</version>
+  <type>maven-plugin</type>
+</dependency> -->
+  </dependencies>
+  
+   <build>
+  <plugins>
+  <!-- <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>2.4.3</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <artifactSet>
+                                <includes>
+                                    <include>org.json:json</include>
+                                </includes>
+                            </artifactSet>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin> -->
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.6.1</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.19.1</version>  
+       <!--  <version>3.0.0-M1</version> -->
+        <configuration>
+        <!-- <testFailureIgnore>true</testFailureIgnore> -->
+          <suiteXmlFiles>   
+               
+          <!-- <suiteXmlFile>target/surefire-reports/testng-failed.xml</suiteXmlFile> -->
+          <!-- <suiteXmlFile>Test_Suites/BuyJPMiles.xml</suiteXmlFile> -->
+         <!--  <suiteXmlFile>Test_Suites/GiftTransferJPMiles.xml</suiteXmlFile>   -->
+          <!-- <suiteXmlFile>Test_Suites/DTR.xml</suiteXmlFile>   -->
+          <!-- <suiteXmlFile>Test_Suites/BusinessRewardsTest.xml</suiteXmlFile>   -->
+          <!-- <suiteXmlFile>Test_Suites/GamificationTest.xml</suiteXmlFile>   -->
+             
+         <!--  <suiteXmlFile>Test_Suites/ContactUs.xml</suiteXmlFile>   --> 
+            <suiteXmlFile>Test_Suites/Enrollment.xml</suiteXmlFile>
+            <!-- <suiteXmlFile>Test_Suites/RedirectionLinksVerification.xml</suiteXmlFile> -->
+             <!-- <suiteXmlFile>Test_Suites/LoginPageTest.xml</suiteXmlFile> -->
+             <!-- <suiteXmlFile>Test_Suites/RedeemNow.xml</suiteXmlFile> -->
+            <!--  <suiteXmlFile>Test_Suites/ForgetPassword.xml</suiteXmlFile> -->
+            <!-- <suiteXmlFile>Test_Suites/${suitefilename}</suiteXmlFile> -->
+          </suiteXmlFiles>          
+        </configuration>
+      </plugin>
+      
+    </plugins> 
+  </build>
+</project>
+
+
+
+ 

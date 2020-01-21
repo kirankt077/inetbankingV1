@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="BusinessRewardsTest" >
+<parameter name="browser" value="chrome" />
+<!-- <listeners>
+        <listener class-name="jppl.automation.Utility.AnnotationTransformer"/>
+  </listeners> -->
+  <test name="ChromeTests">
+  
+  
+    <classes>    	
+    
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.BusinessRewardsTest">
+       
+       <methods>
+		
+		
+		<!-- <include name="verifyWhenGuestUserClicksBusinessRewardsLinkFromHamburger"></include> -->
+		<!-- <include name="verifyWhenGuestUserClicksBusinessRewardsLinkFromFooter"></include> -->
+		<!-- <include name="verifyWhenLoggedInUserClicksOnBusinessRewardsLink"></include> -->
+		<!-- <include name="verifyExpandAndCollapseLinksInBRAboutPage"></include> -->
+		<!-- <include name="verifyRedirectionOnKeyPointsTab"></include> -->
+		<!-- <include name="verifyRedirectionOnCorporateProfileTab"></include> -->
+		<!-- <include name="verifyRedirectionOnAccessYourBRTab"></include> -->
+		<!-- <include name="verifyValidationErrorMessageWhenUserClicksOninviteButtonInAccessYourBRTab"></include> -->
+		<!-- <include name="verifyValidationErrorMessageWhenUserInvitesExisitingUser"></include> -->
+		<!-- <include name="verifyFliterByDropdownInBusinessRewardsDetails"></include> -->
+     	<include name="verifyInvaitationFunctionalityForBR"></include>
+       
+       </methods>
+       </class>      
+    </classes>
+  </test>
+  <!--  <test name="FirefoxTests">
+  <parameter name="browser" value="Firefox" />
+    <classes>
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.FlySearchPageTest" />
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.LoginPageTest" />
+    </classes>
+  </test> -->
+ <!--   <test name="IETests">
+  <parameter name="browser" value="IE" />
+    <classes>
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.FlySearchPageTest" />
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.LoginPageTest" />
+    </classes>
+  </test> -->
+ 
+ <!--  <test name="Regression1">
+    <classes>
+      <class name="test.sample.ParameterSample"/>
+      <class name="test.sample.ParameterTest"/>
+    </classes>
+  </test> -->
+</suite>

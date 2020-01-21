@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MileageCalculatorTest" verbose="1" parallel="tests" thread-count="3" >
+  <test name="ChromeTests">
+  <parameter name="browser" value="chrome" />
+  
+    <classes>  	
+      	<class name="JPPLAutomationGroup.JPPLCICD.Tests.MileageCalculatorTest">
+         <methods>
+<!--           	  			 <include name="OpenMileageCalculatorOnHamburger"></include>   -->
+<!--              	 	     <include name="OpenMileageCalculatorOnFooter"></include>       -->
+<!-- 			      			 <include name="VerifyContentsOfOtherAirlines"></include>   -->
+<!--  							 <include name="VerifyErrorValidationsOfOtherAirlines"></include>  							  -->
+<!-- 	                          <include name="VerifytherAirlinesTabWithValidData"></include> -->
+<!-- 								 <include name="VerifyWhenUserClickOnUseJPMilesTab"></include> -->
+<!--                                <include name="VerifyContentsOfOtherAirlinesOnUseJPMiles"></include> -->
+<!--                                 <include name="VerifyErrorValidations"></include> -->
+<!--                                 <include name="ClickOnViewButtonWithValidData"></include> -->
+<!--                               <include name="LoggedInUserClickOnViewButtonWithValidData"></include>      -->
+<!-- 									<include name="LoggedInUserClickOnBuyButton"></include> -->
+<!-- 									<include name="LoggedInUserClickOnRadioButtonOnCabinClass"></include> -->
+<!-- 									<include name="VerifyRedcolorDownArrowOnCabinClass"></include>									 -->
+<!-- 								<include name="VerifyWhenUserClickOnWhereToGoJPMilesTab"></include> -->
+<!-- 									<include name="VerifyContentsOfWhereToGOWithJPMiles"></include> -->
+<!-- 									<include name="ClickOnViewButtonWithOutEnterData"></include> -->
+									<include name="ClickOnViewButtonWithVaildData"></include>
+								
+        </methods>
+       </class>             
+    </classes>
+  </test> 
+</suite>

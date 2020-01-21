@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="SubscriptionsTest" verbose="1" parallel="tests" thread-count="3" >
+  <test name="ChromeTests">
+  <parameter name="browser" value="chrome" />
+  
+    <classes>  	
+      	<class name="JPPLAutomationGroup.JPPLCICD.Tests.SubscriptionsTest">
+         <methods>
+<!--             	     <include name="OpenClaimVouchersPage"></include>      -->
+<!-- 	                 <include name="SelectSubscriptionPage"></include>     -->
+<!--            <include name="VerifyInsuranceProviderTable"></include>   -->
+	 				 <include name="VerifyCoBrandCardsTable"></include> 
+                              
+        </methods>
+       </class>             
+    </classes>
+  </test>
+</suite>

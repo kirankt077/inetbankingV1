@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" parallel="tests" thread-count="3" >
+  <test name="ChromeTests">
+  <parameter name="browser" value="chrome" />
+  
+    <classes>    
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.DynamicTierReviewTest">       
+       <methods>
+                <include name="verifyPointsCalculationWhenRedirectingFromAccountSummary"></include>  
+                <!-- <include name="verifyRedirectionToTiersAndRecognitionFromBreadcrumb"></include>            -->      
+        </methods>
+       </class>             
+    </classes>
+  </test>
+  <!--  <test name="FirefoxTests">
+  <parameter name="browser" value="Firefox" />
+    <classes>
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.FlySearchPageTest" />
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.LoginPageTest" />
+    </classes>
+  </test> -->
+ <!--   <test name="IETests">
+  <parameter name="browser" value="IE" />
+    <classes>
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.FlySearchPageTest" />
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.LoginPageTest" />
+    </classes>
+  </test> -->
+ 
+ <!--  <test name="Regression1">
+    <classes>
+      <class name="test.sample.ParameterSample"/>
+      <class name="test.sample.ParameterTest"/>
+    </classes>
+  </test> -->
+</suite>

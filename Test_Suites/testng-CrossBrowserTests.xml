@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" parallel="tests" thread-count="3" >
+   <test name="ChromeTests">
+  <parameter name="browser" value="Chrome" />
+    <classes>
+       <!-- <class name="JPPLAutomationGroup.JPPLCICD.Tests.FlySearchPageTest" />
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.LoginPageTest" /> -->
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.BuyJPMilesTest" />
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.EnrollmentTest" />
+    </classes>
+  </test>
+   <test name="FirefoxTests">
+  <parameter name="browser" value="Firefox" />
+    <classes>
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.FlySearchPageTest" />
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.LoginPageTest" />
+    </classes>
+  </test>
+   <test name="IETests">
+  <parameter name="browser" value="IE" />
+    <classes>
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.FlySearchPageTest" />
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.LoginPageTest" />
+    </classes>
+  </test>
+</suite>

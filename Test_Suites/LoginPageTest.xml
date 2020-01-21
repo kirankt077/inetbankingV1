@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="LoginTest" >
+  <parameter name="browser" value="chrome" />
+        
+
+ 
+<test name="NormalLoginTests">  
+		<parameter name="loginType" value="Normal" />
+  
+    <classes>    	
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.LoginPageTest">
+       <!-- <methods> -->
+
+<!--<include name="verifyLoginWithoutPassword"></include>-->
+<!-- <include name="LoginwithValidCredentials"></include> -->
+<!--<include name="LoginwithValidCredentialsAndLogout"></include>-->
+<!--<include name="verifyVerificationWindow_LoginWithJPNumber_EmailUnverified_mobileVerified_passwordCompliant"></include>-->
+<!--<include name="LoginWithJPNumber_EmailUnverified_mobileVerified_passwordCompliant"></include>-->
+<!--<include name="verifyVerificationWindow_LoginwithJPNumber_MobileUnverified_passwordCompliant"></include>-->
+<!--<include name="LoginWithJPNumber_mobileUnVerified_passwordCompliant"></include>-->
+<!--<include name="verifyVerificationWindow_LoginwithJPNumber_bothUnverified_passwordCompliant"></include>-->
+<!--<include name="LoginWithJPNumber_BothUnverified_passwordCompliant"></include>-->
+<!--<include name="verifyVerificationWindow_LoginwithUnverifiedEmail_EmailUnverified_passwordCompliant"></include>-->
+<!--<include name="LoginwithUnverifiedEmail_EmailUnverified_passwordCompliant"></include>-->
+<!--<include name="verifyVerificationWindow_LoginwithUnverifiedMobile_MobileUnverified_passwordCompliant"></include>-->
+<!--<include name="LoginwithUnverifiedMobile_MobileUnverified_passwordCompliant"></include>-->
+<!--<include name="LoginwithJPNumber_InValidPassword"></include>-->
+<!--<include name="LoginwithValidMobile_InValidPassword"></include>-->
+<!--<include name="LoginwithInValidMobile_ValidPassword"></include>-->
+<!--<include name="LoginwithValidEmail_ValidPassword"></include>-->
+<!--<include name="LoginwithInValidEmail_ValidPassword"></include>-->
+<!--<include name="LoginwithValidEmail_InValidPassword"></include>-->
+<!--<include name="LoginwithINVListedJPNumber_ValidPassword"></include>-->
+<!--<include name="verifyLoginOverlay"></include>-->
+<!--<include name="verifyDefaultCursorFocusInLoginOverlay"></include>-->
+<!--<include name="LoginwithInValidJPNumber_ValidPassword"></include>-->
+<!--<include name="LoginwithValidMobileNumber_ValidPassword"></include>-->
+<!--<include name="verifyMobileNumberFormat"></include>-->
+<!--<include name="verifyInvalidMobileNumberErrorMessage"></include>-->
+<!--<include name="LoginwithUserEnrolledwithin180Days"></include>-->
+<!--<include name="LoginwithUserEnrolledBefore180Days"></include>-->
+<!--<include name="verifyRedirectionwhenLoginfromTransactionalPage"></include>-->
+<!--<include name="verifyRedirectionwhenLoginfromStaticPage"></include>-->
+<!--<include name="changePassword_LoginwithValidJPnumber_BothUnverified_passwordNonCompliant"></include>-->
+<!--<include name="verifyInvalidMobileOTPMessage_LoginwithValidJPnumber_BothUnverified_passwordNonCompliant"></include>-->
+<!--<include name="verifyInvalidEmailOTPMessage_LoginwithValidJPnumber_BothUnverified_passwordNonCompliant"></include>-->
+<!--<include name="verifyInvalidMobileAndEmailOTPMessage_LoginwithValidJPnumber_BothUnverified_passwordNonCompliant"></include>-->
+<!--<include name="changePassword_LoginwithValidEmail_BothUnverified_passwordNonCompliant"></include>-->
+<!--<include name="LoginwithINVListedEmailId_ValidPassword"></include>-->
+<!--<include name="LoginwithINVListedMobileNumber_ValidPassword"></include>-->
+<!--<include name="verifyCreateNewPasswordScreen_LoginWithJPNumber_BothVerified_PasswordNonCompliant"></include>-->
+<!--<include name="verifyCreateNewPasswordScreen_LoginWithMobileNumber_BothVerified_PasswordNonCompliant"></include>-->
+<!--<include name="verifyCreateNewPasswordScreen_LoginWithEmail_BothVerified_PasswordNonCompliant"></include>-->
+<!--<include name="verifyPasswordMismatchErrorOnCreateNewPasswordScreen_LoginWithJPNumber_BothVerified_PasswordNonCompliant"></include>-->
+<!--<include name="verifyWeakPasswordIndicatorOnCreateNewPasswordScreen_LoginWithJPNumber_BothVerified_PasswordNonCompliant"></include>-->
+<!--<include name="verifyModeratePasswordIndicatorOnCreateNewPasswordScreen_LoginWithJPNumber_BothVerified_PasswordNonCompliant"></include>-->
+<!--<include name="verifyStrongPasswordIndicatorOnCreateNewPasswordScreen_LoginWithJPNumber_BothVerified_PasswordNonCompliant"></include>-->
+<!--<include name="verifyPasswordChangedAfterCreateNewPasswordScreen_LoginWithJPNumber_BothVerified_PasswordNonCompliant"></include>-->
+<!--<include name="verifyLoginAfterPasswordChange_LoginWithJPNumber_BothVerified_PasswordNonCompliant"></include>-->
+<!--<include name="verifyCreateNewPasswordPage_LoginWithJPNumber_BothUnVerified_PasswordNonCompliant"></include>-->
+<!--<include name="verifyCreateNewPasswordPagewhileVerifyMobileThenEmail_LoginwithValidJPnumber_BothUnverified_passwordNonCompliant"></include>-->
+<!--<include name="verifyLoginwithJPNumber_LoginwithValidJPnumber_BothUnverified_passwordNonCompliant"></include>-->
+<!--<include name="verifyLoginwithMobile_LoginwithValidJPnumber_BothUnverified_passwordNonCompliant"></include>-->
+       
+   <!--     </methods> -->
+           
+       </class>
+    </classes>
+  </test>
+   
+    
+  <test name="StandaloneLoginTests">  
+    <parameter name="loginType" value="Standalone" />
+  
+    <classes>    	
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.LoginPageTest">
+       <!-- <methods> -->
+       
+<!--<include name="verifyLoginWithoutPassword"></include>-->
+<!-- <include name="LoginwithValidCredentials"></include> -->
+<!--<include name="LoginwithValidCredentialsAndLogout"></include>-->
+<!--<include name="verifyVerificationWindow_LoginWithJPNumber_EmailUnverified_mobileVerified_passwordCompliant"></include>-->
+<!--<include name="LoginWithJPNumber_EmailUnverified_mobileVerified_passwordCompliant"></include>-->
+<!--<include name="verifyVerificationWindow_LoginwithJPNumber_MobileUnverified_passwordCompliant"></include>-->
+<!--<include name="LoginWithJPNumber_mobileUnVerified_passwordCompliant"></include>-->
+<!--<include name="verifyVerificationWindow_LoginwithJPNumber_bothUnverified_passwordCompliant"></include>-->
+<!--<include name="LoginWithJPNumber_BothUnverified_passwordCompliant"></include>-->
+<!--<include name="verifyVerificationWindow_LoginwithUnverifiedEmail_EmailUnverified_passwordCompliant"></include>-->
+<!--<include name="LoginwithUnverifiedEmail_EmailUnverified_passwordCompliant"></include>-->
+<!--<include name="verifyVerificationWindow_LoginwithUnverifiedMobile_MobileUnverified_passwordCompliant"></include>-->
+<!--<include name="LoginwithUnverifiedMobile_MobileUnverified_passwordCompliant"></include>-->
+<!--<include name="LoginwithJPNumber_InValidPassword"></include>-->
+<!--<include name="LoginwithValidMobile_InValidPassword"></include>-->
+<!--<include name="LoginwithInValidMobile_ValidPassword"></include>-->
+<!--<include name="LoginwithValidEmail_ValidPassword"></include>-->
+<!--<include name="LoginwithInValidEmail_ValidPassword"></include>-->
+<!--<include name="LoginwithValidEmail_InValidPassword"></include>-->
+<!--<include name="LoginwithINVListedJPNumber_ValidPassword"></include>-->
+<!--<include name="verifyLoginOverlay"></include>-->
+<!--<include name="verifyDefaultCursorFocusInLoginOverlay"></include>-->
+<!--<include name="LoginwithInValidJPNumber_ValidPassword"></include>-->
+<!--<include name="LoginwithValidMobileNumber_ValidPassword"></include>-->
+<!--<include name="verifyMobileNumberFormat"></include>-->
+<!--<include name="verifyInvalidMobileNumberErrorMessage"></include>-->
+<!--<include name="LoginwithUserEnrolledwithin180Days"></include>-->
+<!--<include name="LoginwithUserEnrolledBefore180Days"></include>-->
+<!--<include name="verifyRedirectionwhenLoginfromTransactionalPage"></include>-->
+<!--<include name="verifyRedirectionwhenLoginfromStaticPage"></include>-->
+<!--<include name="changePassword_LoginwithValidJPnumber_BothUnverified_passwordNonCompliant"></include>-->
+<!--<include name="verifyInvalidMobileOTPMessage_LoginwithValidJPnumber_BothUnverified_passwordNonCompliant"></include>-->
+<!--<include name="verifyInvalidEmailOTPMessage_LoginwithValidJPnumber_BothUnverified_passwordNonCompliant"></include>-->
+<!--<include name="verifyInvalidMobileAndEmailOTPMessage_LoginwithValidJPnumber_BothUnverified_passwordNonCompliant"></include>-->
+<!--<include name="changePassword_LoginwithValidEmail_BothUnverified_passwordNonCompliant"></include>-->
+<!--<include name="LoginwithINVListedEmailId_ValidPassword"></include>-->
+<!--<include name="LoginwithINVListedMobileNumber_ValidPassword"></include>-->
+<!--<include name="verifyCreateNewPasswordScreen_LoginWithJPNumber_BothVerified_PasswordNonCompliant"></include>-->
+<!--<include name="verifyCreateNewPasswordScreen_LoginWithMobileNumber_BothVerified_PasswordNonCompliant"></include>-->
+<!--<include name="verifyCreateNewPasswordScreen_LoginWithEmail_BothVerified_PasswordNonCompliant"></include>-->
+<!--<include name="verifyPasswordMismatchErrorOnCreateNewPasswordScreen_LoginWithJPNumber_BothVerified_PasswordNonCompliant"></include>-->
+<!--<include name="verifyWeakPasswordIndicatorOnCreateNewPasswordScreen_LoginWithJPNumber_BothVerified_PasswordNonCompliant"></include>-->
+<!--<include name="verifyModeratePasswordIndicatorOnCreateNewPasswordScreen_LoginWithJPNumber_BothVerified_PasswordNonCompliant"></include>-->
+<!--<include name="verifyStrongPasswordIndicatorOnCreateNewPasswordScreen_LoginWithJPNumber_BothVerified_PasswordNonCompliant"></include>-->
+<!--<include name="verifyPasswordChangedAfterCreateNewPasswordScreen_LoginWithJPNumber_BothVerified_PasswordNonCompliant"></include>-->
+<!--<include name="verifyLoginAfterPasswordChange_LoginWithJPNumber_BothVerified_PasswordNonCompliant"></include>-->
+<!--<include name="verifyCreateNewPasswordPage_LoginWithJPNumber_BothUnVerified_PasswordNonCompliant"></include>-->
+<!--<include name="verifyCreateNewPasswordPagewhileVerifyMobileThenEmail_LoginwithValidJPnumber_BothUnverified_passwordNonCompliant"></include>-->
+<!--<include name="verifyLoginwithJPNumber_LoginwithValidJPnumber_BothUnverified_passwordNonCompliant"></include>-->
+<!--<include name="verifyLoginwithMobile_LoginwithValidJPnumber_BothUnverified_passwordNonCompliant"></include>-->
+       
+       
+      <!--  </methods> -->
+           
+       </class>
+    </classes>
+  </test>
+  
+ </suite>

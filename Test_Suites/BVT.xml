@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="BVT Suite" >
+  <parameter name="browser" value="chrome" />
+ 
+<test name="BVT Scenarios">  
+		
+    <classes>    	
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.LoginPageTest">
+       <methods>
+                <include name="BuyJPMiles_verifyMinimumJPMilesQuantityForBuy"></include>                
+        </methods>
+       </class>    
+        <class name="JPPLAutomationGroup.JPPLCICD.Tests.EnrollmentTest">
+       <methods>
+                <include name="verifyFunctionalityOfContinueButtonOfEnrolSuccessPage"></include>                
+        </methods>
+       </class> 
+  </test>
+  
+ </suite>

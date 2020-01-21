@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="OffersAndDeals" >
+  <test name="ChromeTests">
+  <parameter name="browser" value="chrome" />
+  
+    <classes>    	
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.OffersAndDeals"> 
+        <methods>
+        <include name="verifyUserClicksonOffersandDeals"></include>
+        <!-- <include name="EnrolWithExistingEnrolledEmailId"></include>
+        <include name="VerifyBlankLastNameField"></include>
+       
+      
+<include name="verifyBreadcrumbpresence"></include> -->
+        
+       </methods> 
+       </class>    
+    </classes>
+  </test>
+  <!--  <test name="FirefoxTests">
+  <parameter name="browser" value="Firefox" />
+    <classes>
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.FlySearchPageTest" />
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.LoginPageTest" />
+    </classes>
+  </test> -->
+ <!--   <test name="IETests">
+  <parameter name="browser" value="IE" />
+    <classes>
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.FlySearchPageTest" />
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.LoginPageTest" />
+    </classes>
+  </test> -->
+ 
+ <!--  <test name="Regression1">
+    <classes>
+      <class name="test.sample.ParameterSample"/>
+      <class name="test.sample.ParameterTest"/>
+    </classes>
+  </test> -->
+</suite>
+
+
+

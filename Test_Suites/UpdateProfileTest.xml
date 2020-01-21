@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="UpdateProfileTest" >
+<parameter name="browser" value="chrome" />
+<!-- <listeners>
+        <listener class-name="jppl.automation.Utility.AnnotationTransformer"/>
+  </listeners> -->
+  <test name="ChromeTests">
+  
+  
+    <classes>    	
+    
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.UpdateProfileTest">
+       
+       <methods>
+       <include name="verifyPersonalInfoUI"></include>
+       <include name="verifyBlankEmailErrorMessage"></include>
+       <include name="verifyInvalidEmailErrorMessage"></include>
+       <include name="verifySameEmailErrorMessage"></include>
+       <include name="verifyExistingEmailErrorMessage"></include>
+       <include name="verifyBlankMobileErrorMessage"></include>
+       <include name="verifySameMobileErrorMessage"></include>
+       <include name="verifyExistingMobileErrorMessage"></include>
+       <include name="verifyOverlayWhenUserUpdatedEmailIdSuccessfully"></include>
+       
+       
+       
+       
+       </methods>
+       </class>      
+    </classes>
+  </test>
+  <!--  <test name="FirefoxTests">
+  <parameter name="browser" value="Firefox" />
+    <classes>
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.FlySearchPageTest" />
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.LoginPageTest" />
+    </classes>
+  </test> -->
+ <!--   <test name="IETests">
+  <parameter name="browser" value="IE" />
+    <classes>
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.FlySearchPageTest" />
+       <class name="JPPLAutomationGroup.JPPLCICD.Tests.LoginPageTest" />
+    </classes>
+  </test> -->
+ 
+ <!--  <test name="Regression1">
+    <classes>
+      <class name="test.sample.ParameterSample"/>
+      <class name="test.sample.ParameterTest"/>
+    </classes>
+  </test> -->
+</suite>
